@@ -1,0 +1,23 @@
+.networks {
+    margin-top: 3vh;
+    display: flex;
+}
+
+.networks div {
+    margin: 0.5vw;
+}
+
+.twitter, .instagram, .chrome, .telegram {
+    padding: 0.5vw;
+    margin: 0.5vh 0vw;
+    background-color:rgba(0, 0, 0, 0.2);
+}
+
+.twitter img, .instagram img, .chrome img, .telegram img {
+    width: 20px;
+    height: 20px;
+}
+
+.twitter img:hover, .instagram img:hover, .chrome img:hover, .telegram img:hover {
+    cursor: pointer;
+}

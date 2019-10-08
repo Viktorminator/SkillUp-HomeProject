@@ -1,0 +1,46 @@
+.about-part-1 {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+}
+
+.about-photo {
+    margin-left: 10vw;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-image: url(./Images/iam.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+.about-text {
+    margin-left: 5vw;
+    width: 55vw;
+    height: auto;
+}
+
+.about-text h4, .about-text p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.about-text h4 {
+    margin-bottom: 4vh;
+    color: #999494;
+    font-size: 1.3em;
+    line-height: 1.3;
+    font-family: 'Muli', sans-serif;
+    font-weight: 100;
+}
+
+.about-text p {
+    color: #524f4f;
+    font-size: 0.9em;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+}
+

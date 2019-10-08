@@ -1,0 +1,18 @@
+.about-header, .portfolio-header, .blog-header, .get-contact-header {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 40px;
+    background-color: #1abb9c;
+}
+
+.about-header p, .portfolio-header p, .blog-header p, .get-contact-header p {
+    text-transform: uppercase;
+    margin: 0vh 0vw 0vh 10vw;
+    padding: 0px;
+    color: #fff;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    letter-spacing: 0px;
+}

@@ -1,0 +1,80 @@
+.about-section {
+    display: flex;
+    flex-direction: column;
+    clip-path: polygon(0% 0%, 12% 0%, 13% 20px, 14% 0% ,100% 0%, 100% 100%, 0% 100%);
+    width: 100vw;
+    height: auto;
+    background-color: #fff;
+}
+
+.about-part-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: auto;
+    padding-left: 10vw;
+}
+
+.about-part-3, .contact-part-2 {
+    text-decoration: none;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    height: 8%;
+    background-color: rgb(63, 141, 191);
+    width: 150px;
+    height: 50px;
+    margin: 2vw;
+    border-color: #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 0px 2px 2px rgb(88, 88, 88);
+}
+
+.contact-part-2 {
+    align-self: flex-start;
+    margin-left: 10vw;
+}
+
+.about-part-3:hover, .contact-part-2:hover {
+    cursor: pointer;
+    box-shadow: 0px 5px 5px rgb(44, 44, 44);
+}
+
+.about-button img, .contact-button img {
+    width: 35px;
+    height: 30px;
+}
+
+.about-part-2 p, .about-part-2 h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.about-part-2 div {
+    padding: 2vw;
+    width: 25vw;
+    height: auto;
+}
+
+.about-part-2 div h3 {
+    text-transform: uppercase;
+    margin-bottom: 1.5vh;
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+.about-part-2 div p {
+    color: #524f4f;
+    font-size: 0.9em;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
