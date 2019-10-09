@@ -1,13 +1,12 @@
 import React from 'react'
+import SelfPhoto from './SelfPhoto/SelfPhoto'
 
 import './PartOne.css'
 
 function PartOne() {
     return (
         <div className = "about-part-1">
-            <div className="about-photo">
-                
-            </div>
+            <SelfPhoto/>
             <div className="about-text">
                 <h4>I applied for a front-end web developer position through the Stack Overflow jobs section 
                     and thought if nothing else it’ll be great practice.</h4>

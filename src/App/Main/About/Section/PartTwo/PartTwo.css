@@ -1,0 +1,33 @@
+.about-part-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: auto;
+    padding-left: 10vw;
+}
+
+.about-part-2 p, .about-part-2 h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.about-part-2 div {
+    padding: 2vw;
+    width: 25vw;
+    height: auto;
+}
+
+.about-part-2 div h3 {
+    text-transform: uppercase;
+    margin-bottom: 1.5vh;
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+.about-part-2 div p {
+    color: #524f4f;
+    font-size: 0.9em;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+}
