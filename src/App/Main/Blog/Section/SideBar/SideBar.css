@@ -1,0 +1,62 @@
+.blog-sidebar {
+    padding: 2% 0;
+    height: auto;
+    width: 35%;
+    background-color: #f0f0f0;
+}
+
+.sidebar-item {
+    opacity: 0.4;
+    margin-top: 2vh;
+    margin-left: 10vw;
+    width: 35%;
+    min-height: 150px;
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(50% 0, 100% 0, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 0); 
+}
+
+.sidebar-item:hover {
+    opacity:1;
+    animation: 0.5s polygon;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+@keyframes polygon {
+    0% {
+        clip-path: polygon(50% 0, 100% 0, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 0); 
+    }
+
+    100% {
+        clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    }
+}
+.sidebar-item:nth-child(odd) {
+    margin-left: 10vw;
+}
+.sidebar-item:nth-child(even) {
+    margin-left: 20vw;
+}
+
+/*
+.sidebar-item:nth-child(1) {
+    background-image: url(./img/html.png);
+}
+
+.sidebar-item:nth-child(2) {
+    background-image: url(./img/css.jpg);
+}
+
+.sidebar-item:nth-child(3) {
+    background-image: url(./img/javascript.png);
+}
+
+.sidebar-item:nth-child(4) {
+    background-image: url(./img/react.png);
+}
+
+.sidebar-item:nth-child(5) {
+    background-image: url(./img/angular.png);
+}
+*/

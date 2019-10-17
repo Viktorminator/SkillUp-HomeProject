@@ -1,4 +1,5 @@
 import React, {Component}  from 'react'
+import SliderBtn from './SliderBtn'
 import ImageArray from './ImageArray'
 
 import './Slider.css'
@@ -8,13 +9,10 @@ class Slider extends Component{
     state = {
         position: {
             left: '0px',
-        },
-        colorBtn: {
-            backgroundColor: 'rgb(102, 104, 105)'
         }
     }
 
-    newSlide(productId) {
+    newSlide = (productId) => {
         if (productId == 1) {
             this.setState (() => ({
                 position : {
@@ -45,7 +43,7 @@ class Slider extends Component{
     render() {
         return (
             <div className="slide-container">
-                <div className="image-container" style = {this.state.position} >
+                <div className="image-container" style = {this.state.position}>
                     {
                         ImageArray.map(({
                             image,
@@ -53,10 +51,13 @@ class Slider extends Component{
                             id
                         }) => {
                             return (
-                                <img src={image} alr={alt} key={id}/>
+                                <img 
+                                    src={image} 
+                                    alt={alt} 
+                                    key={id}
+                                />
                             )
-                        }
-                        )
+                        })
                     }
                 </div>
                 <div className="button-container">
@@ -65,10 +66,10 @@ class Slider extends Component{
                             id
                         })=>{
                             return (
-                                <div
-                                    className="slider-button"
+                                <SliderBtn
+                                    id = {id}
+                                    newSlide = {this.newSlide}
                                     key={id}
-                                    onClick = {()=>this.newSlide(id)}
                                 />
                             )
                         })
