@@ -7,7 +7,7 @@ function NavItem({
 }) {
     return(
         <li>
-            <a href="#">{nameLink}
+            <a href={`#${nameLink}`}>{nameLink}
                 <span></span>
                 <span></span>
                 <span></span>

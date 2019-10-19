@@ -1,5 +1,6 @@
 const PostData = [
-    {
+    {   
+        id: 1,
         img: 'Images/blog1.jpg',
         alt: 'blog-1',
         date: 'April 2019 || Kyiv',
@@ -10,6 +11,7 @@ const PostData = [
         explanations of coding.`
     },
     {
+        id: 2,
         img: 'Images/blog2.jpg',
         alt: 'blog-2',
         date: 'February 2019 || Kyiv',
@@ -17,6 +19,7 @@ const PostData = [
         to knock one out! Diana asked: "Can you make a tutorial on how to make a blog button with a grab…`
     },
     {
+        id: 3,
         img: 'Images/blog3.jpg',
         alt: 'blog-3',
         date: 'December 2018 || Kyiv',
@@ -24,6 +27,7 @@ const PostData = [
         your header or cover photos, but what about those areas that you may have left untouched? Such as…`
     },
     {
+        id: 4,
         img: 'Images/blog4.jpg',
         alt: 'blog-4',
         date: ' November 2018 || Kyiv',
@@ -33,6 +37,7 @@ const PostData = [
         Make a new project folder with index.html and style.css files in it.`
     },
     {
+        id: 5,
         img: 'Images/blog5.jpg',
         alt: 'blog-5',
         date: 'October 2018 || Kyiv',
@@ -42,6 +47,7 @@ const PostData = [
         In this aspect, JavaScript is very different from another language called Java.`
     },
     {
+        id: 6,
         img: 'Images/blog6.png',
         alt: 'blog-6',
         date: 'September 2018 || Kyiv',

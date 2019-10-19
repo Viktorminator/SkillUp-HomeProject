@@ -6,7 +6,7 @@ import './About.css'
 
 function About() {
     return (
-        <div className = "about">
+        <div className = "about" id='About'>
             <SubHeader
                 className = "about-header"
                 title = "A little about me"

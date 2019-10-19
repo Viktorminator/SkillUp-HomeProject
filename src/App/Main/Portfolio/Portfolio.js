@@ -6,7 +6,7 @@ import './Portfolio.css'
 
 function Portfolio(){
     return (
-        <div className = "portfolio">
+        <div className = "portfolio" id='Projects'>
             <SubHeader
                 className = "portfolio-header"
                 title = "My projects"

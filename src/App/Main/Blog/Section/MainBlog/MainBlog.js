@@ -23,6 +23,7 @@ class Main extends Component {
             <div className='blog-main'>
             <div className='blog-posts' style = {this.state}>
                 {PostData.map(({
+                    id,
                     img,
                     alt,
                     date,
@@ -30,6 +31,7 @@ class Main extends Component {
                 })=>{
                     return (
                         <PostItem
+                            key = {id}
                             img = {img}
                             alt = {alt}
                             date = {date}

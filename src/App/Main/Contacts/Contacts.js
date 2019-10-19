@@ -6,7 +6,7 @@ import './Contacts.css'
 
 function Contacts() {
     return (
-        <div className="get-contact">
+        <div className="get-contact" id='Contact'>
             <SubHeader
                 className='get-contact-header'
                 title='Contact'
@@ -36,7 +36,7 @@ function Contacts() {
                         </p>
                     </div>
                 </div>
-                <div class="contact-part-2 contact-button">
+                <div className="contact-part-2 contact-button">
                     <img src={telegram} alt="telegram"/> Submit
                 </div>
             </section>
