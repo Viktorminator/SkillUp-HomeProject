@@ -2,11 +2,15 @@ import React from 'react'
 
 import './BlogBtn.css'
 
-function BlogBtn() {
+function BlogBtn({
+    changeHeight
+}) {
     return(
         <div className='blog-button'>
-            <div id='readMore'>
-                Read more...
+            <div 
+                onClick = {()=>{changeHeight()}}
+            >
+                Show ALL 
             </div>
         </div>
     )
