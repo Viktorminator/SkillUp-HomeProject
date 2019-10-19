@@ -8,7 +8,7 @@ function Blog () {
     return (
         <div className='Blog'>
             <SubHeader
-                nameClass='blog-header'
+                className='blog-header'
                 title='Latest blog posts'
             />
             <Section/>

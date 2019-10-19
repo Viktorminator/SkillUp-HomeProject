@@ -1,0 +1,25 @@
+.blog-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.blog-button div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 30px;
+    background-color: rgb(149, 151, 153);
+    color:rgba(255, 255, 255, 0.877);
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    box-shadow: 0px 5px 5px rgb(180, 175, 175);
+}
+
+.blog-button div:hover {
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgb(104, 103, 103);
+}

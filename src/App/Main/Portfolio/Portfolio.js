@@ -8,7 +8,7 @@ function Portfolio(){
     return (
         <div className = "portfolio">
             <SubHeader
-                nameClass = "portfolio-header"
+                className = "portfolio-header"
                 title = "My projects"
             />
            <Section/>

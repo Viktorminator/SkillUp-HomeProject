@@ -8,7 +8,7 @@ function About() {
     return (
         <div className = "about">
             <SubHeader
-                nameClass = "about-header"
+                className = "about-header"
                 title = "A little about me"
             />
             <Section/>

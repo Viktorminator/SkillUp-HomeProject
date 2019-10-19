@@ -1,0 +1,21 @@
+.blog-main {
+    padding: 20vh 6vw 5vh 5vw;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 59%;
+    background-color: #f0f0f0;
+}
+
+.blog-posts {
+    padding: 14px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 2vw;
+    grid-row-gap: 10vh;
+    width: 95%;
+    height: 680px;
+    overflow: hidden;
+}
+

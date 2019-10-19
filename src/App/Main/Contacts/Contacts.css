@@ -1,0 +1,105 @@
+.get-contact {
+    padding: 0px;
+    height: 600px;
+}
+
+.contact-part-2 {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 141, 191);
+    width: 150px;
+    height: 50px;
+    margin: 2vw;
+    border-color: #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    align-self: flex-start;
+    margin-left: 10vw;
+}
+
+.contact-part-2:hover {
+    cursor: pointer;
+    box-shadow: 0px 5px 5px rgb(44, 44, 44);
+}
+
+.contact-button img {
+    width: 35px;
+    height: 30px;
+}
+
+.contact-text h3 {
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 5.5vh;
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+}
+
+.contact-text p {
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+    letter-spacing: 0px;
+}
+
+.get-contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    clip-path: polygon(0% 0%, 12% 0%, 13% 20px, 14% 0% ,100% 0%, 100% 100%, 0% 100%);
+    width: 100vw;
+    height: 93%;
+    background-image: url(./_122.jpg);
+    background-size: 100%;
+    background-position: 50% 30%;
+    box-shadow: 0px 1px 5px #b4b3b3;
+}
+
+.contact-part-1 {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-input {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+}
+
+.contact-input input {
+    width: 40vw;
+    height: 5vh;
+    margin: 2vh 0;
+    padding-left: 2vw;
+    background-color: rgba(252, 252, 252, 0.1);
+    border: 1px solid rgb(39, 39, 39);
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact-input input::placeholder {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact-input input:focus {
+    outline: none;
+}
+
+.contact-text {
+    margin-left: 5vw;
+    width: 30%;
+    height: 300px;
+}
+
+#message {
+    height: 20vh;
+}

@@ -3,8 +3,10 @@ import About from './About/About'
 import Home from './Home/Home'
 import Portfolio from './Portfolio/Portfolio'
 import Blog from './Blog/Blog'
+import Contacts from './Contacts/Contacts'
 
 import './Main.css'
+
 
 function Main(){
     return (
@@ -13,6 +15,7 @@ function Main(){
             <About/>
             <Portfolio/>
             <Blog/>
+            <Contacts/>
         </main>
     ) 
 }

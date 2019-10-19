@@ -3,11 +3,11 @@ import React from 'react'
 import './SubHeader.css'
 
 function SubHeader({
-    nameClass,
+    className,
     title
 }) {
     return (
-        <header className= {nameClass}>
+        <header className= {className}>
             <p>{title}</p>
         </header>
     )
