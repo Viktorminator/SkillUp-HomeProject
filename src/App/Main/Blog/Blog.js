@@ -6,7 +6,7 @@ import './Blog.css'
 
 function Blog () {
     return (
-        <div className='Blog'>
+        <div className='Blog' id='Blog'>
             <SubHeader
                 className='blog-header'
                 title='Latest blog posts'

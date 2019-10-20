@@ -6,7 +6,7 @@ import './Contacts.css'
 
 function Contacts() {
     return (
-        <div className="get-contact" id='Contact'>
+        <div className="get-contact" id='Contacts'>
             <SubHeader
                 className='get-contact-header'
                 title='Contact'

@@ -1,10 +1,9 @@
 import React from 'react'
+import './UpArrow.css'
+import Arrow from './pageUp.png'
 import {Link, animateScroll as scroll} from 'react-scroll'
 
-import './NavItem.css'
-
-function NavItem({
-    nameLink,
+function UpArrow({
     activeClass,
     to,
     spy,
@@ -12,8 +11,9 @@ function NavItem({
     offset,
     duration
 }) {
-    return(
-        <Link
+    return (
+        <Link 
+            className='upArrow'
             activeClass = {activeClass}
             to = {to}
             spy = {spy}
@@ -21,15 +21,9 @@ function NavItem({
             offset = {offset}
             duration = {duration}
         >
-            <li>
-                {nameLink}
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </li>
+            <img src={Arrow} alt='arrow'/>
         </Link>
     )
 }
 
-export default NavItem
+export default UpArrow

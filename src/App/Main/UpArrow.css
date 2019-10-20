@@ -1,0 +1,13 @@
+.upArrow img{
+    position: fixed;
+    width: 75px;
+    height: 75px;
+    top: 88%;
+    left: 94%;
+    opacity: 0.3;
+}
+
+.upArrow img:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}

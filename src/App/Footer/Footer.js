@@ -1,21 +1,19 @@
 import React from 'react'
+import Network from '../Main/Home/Network/Network'
 
-import Network from './Network/Network'
-import Developer from './Developer/Developer'
+import twitter from '../Main/Home/Images/twitter-footer.png'
+import instagram from '../Main/Home/Images/instagram-footer.png'
+import chrome from '../Main/Home/Images/chrome-footer.png'
+import telegram from '../Main/Home/Images/telegram-footer.png'
 
-import './Home.css'
-import twitter from './Images/twitter.png'
-import instagram from './Images/instagram.png'
-import chrome from './Images/chrome.png'
-import telegram from './Images/telegram.png'
+import './Footer.css'
 
-function Home() {
-    return(
-        <div className="slider" id='Home'>
-            <Developer
-                developer = "I'm Maksym Shamanskyi"
-                profession = "Front-end developer"
-            />
+function Footer() {
+    return (
+        <footer>
+            <div className="footer-rights" id='Footer'>
+                &#169; 2019 Kyiv. Copyright. All rights reserved
+            </div>    
             <div className="networks">
                 <Network
                     src = {twitter}
@@ -37,9 +35,9 @@ function Home() {
                     nameClass = "telegram"
                     alt = "telegram"
                 />
-            </div>    
-        </div>
-    ) 
+            </div>
+        </footer>
+    )
 }
 
-export default Home
+export default Footer

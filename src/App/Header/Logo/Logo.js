@@ -5,10 +5,10 @@ import './Logo.css'
 
 const Logo = () => {
     return (
-        <div className="logo">
+        <a className="logo" href = ''>
             <img src={logo} alt="logo"/>
             <p>SHAMAN<span>skyi</span></p>
-        </div>
+        </a>
     )
 }
 

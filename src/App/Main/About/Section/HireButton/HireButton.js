@@ -7,7 +7,7 @@ function HireButton({
     text = "Hire me"
 }) {
     return (
-        <a href="#contacts" className="about-part-3 about-button">
+        <a href="#Contact" className="about-part-3 about-button">
             <img src = {telegram} alt="telegram"/> {text}
         </a>
     )
