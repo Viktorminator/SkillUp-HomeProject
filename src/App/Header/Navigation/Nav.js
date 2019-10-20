@@ -13,7 +13,7 @@ function Nav(){
                     to="Home"
                     spy={true}
                     smooth={true}
-                    offset={0}
+                    offset={-100}
                     duration= {500}
                 />
                 <NavItem
@@ -22,7 +22,7 @@ function Nav(){
                     to="About"
                     spy={true}
                     smooth={true}
-                    offset={0}
+                    offset={-48}
                     duration= {500}
                 />
                 <NavItem
@@ -31,7 +31,7 @@ function Nav(){
                     to="Projects"
                     spy={true}
                     smooth={true}
-                    offset={0}
+                    offset={-48}
                     duration= {500}
                 />
                 <NavItem
@@ -40,16 +40,16 @@ function Nav(){
                     to="Blog"
                     spy={true}
                     smooth={true}
-                    offset={0}
+                    offset={-48}
                     duration= {500}
                 />
                 <NavItem
                     nameLink='Contact'
                     activeClass="active"
-                    to="Contacts"
+                    to="Contact"
                     spy={true}
                     smooth={true}
-                    offset={0}
+                    offset={-48}
                     duration= {500}
                 />
                 <NavItem
@@ -58,7 +58,7 @@ function Nav(){
                     to="Footer"
                     spy={true}
                     smooth={true}
-                    offset={0}
+                    offset={-643}
                     duration= {500}
                 />
             </ul>

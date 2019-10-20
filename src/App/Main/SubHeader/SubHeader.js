@@ -4,10 +4,11 @@ import './SubHeader.css'
 
 function SubHeader({
     className,
-    title
+    title,
+    id = ''
 }) {
     return (
-        <header className= {className}>
+        <header className= {className} id={id}>
             <p>{title}</p>
         </header>
     )

@@ -52,3 +52,8 @@ ul li span:nth-child(4) {
 	left: 75%;
 	transition-delay: 0.45s;
 }
+
+a.active li {
+	color:#fff;
+	background-color: #1abb9c;
+}
