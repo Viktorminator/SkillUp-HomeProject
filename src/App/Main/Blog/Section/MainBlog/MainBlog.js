@@ -19,10 +19,15 @@ class Main extends Component {
     }
     
     render () {
+
+        const {
+            PostArray
+        } = this.props
+        
         return (
             <div className='blog-main'>
             <div className='blog-posts' style = {this.state}>
-                {PostData.map(({
+                {PostArray.map(({
                     id,
                     img,
                     alt,

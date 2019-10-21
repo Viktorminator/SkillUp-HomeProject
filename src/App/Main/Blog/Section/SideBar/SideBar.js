@@ -25,24 +25,31 @@ const
         backgroundImage: `url(${reactImg})`
     }
 
-function SideBar() {
+function SideBar({
+    Filter
+}) {
 
     return (
         <div className='blog-sidebar'>
             <SideBatItem
                 img = {html}
+                Filter = {Filter}
             />
             <SideBatItem
                 img = {css}
+                Filter = {Filter}
             />
             <SideBatItem
                 img = {js}
+                Filter = {Filter}
             />
             <SideBatItem
                 img = {angular}
+                Filter = {Filter}
             />
             <SideBatItem
                 img = {react}
+                Filter = {Filter}
             />
         </div>
     )

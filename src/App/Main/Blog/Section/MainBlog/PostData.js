@@ -8,7 +8,8 @@ const PostData = [
         blog or website. Although I like to insist on bloggers taking the time to learn how to write 
         these codes and know what each part of them does, sometimes you need a code in a pinch! 
         Be sure to view the other tutorials on this site for more in-depth demonstrations and 
-        explanations of coding.`
+        explanations of coding.`,
+        theme:'html'
     },
     {
         id: 2,
@@ -16,7 +17,8 @@ const PostData = [
         alt: 'blog-2',
         date: 'February 2019 || Kyiv',
         description: `It's been a while since I answered a reader question, so I thought I would take this opportunity 
-        to knock one out! Diana asked: "Can you make a tutorial on how to make a blog button with a grab…`
+        to knock one out! Diana asked: "Can you make a tutorial on how to make a blog button with a grab…`,
+        theme:'html'
     },
     {
         id: 3,
@@ -24,7 +26,8 @@ const PostData = [
         alt: 'blog-3',
         date: 'December 2018 || Kyiv',
         description: `Maximizing your social media real estate can be incredibly beneficial. You're familiar with updating 
-        your header or cover photos, but what about those areas that you may have left untouched? Such as…`
+        your header or cover photos, but what about those areas that you may have left untouched? Such as…`,
+        theme:'css'
     },
     {
         id: 4,
@@ -34,7 +37,8 @@ const PostData = [
         description: `If you don’t already know the syntax and structure of CSS, check out my last article before reading this. 
         If you know the CSS syntax already, let’s continue!
         For this tutorial, we’re going to have some very basic HTML - we will be focusing on the actual CSS. 
-        Make a new project folder with index.html and style.css files in it.`
+        Make a new project folder with index.html and style.css files in it.`,
+        theme:'css'
     },
     {
         id: 5,
@@ -44,7 +48,8 @@ const PostData = [
         description: `JavaScript was initially created to “make web pages alive”. The programs in this language are called 
         scripts. They can be written right in a web page’s HTML and run automatically as the page loads. 
         Scripts are provided and executed as plain text. They don’t need special preparation or compilation to run.
-        In this aspect, JavaScript is very different from another language called Java.`
+        In this aspect, JavaScript is very different from another language called Java.`,
+        theme:'js'
     },
     {
         id: 6,
@@ -54,7 +59,8 @@ const PostData = [
         description: `Choosing the right framework for your project is pivotal to its long term success and scalability. 
         AngularJS, managed by Google has been around for a little longer than ReactJS is owned by Facebook. 
         Both frameworks are easy to use and unique in their own ways. They are both designed to build cutting-edge 
-        mobile and web applications.`
+        mobile and web applications.`,
+        theme:'react'
     }
     
 

@@ -49,7 +49,7 @@ function Nav(){
                     to="Contact"
                     spy={true}
                     smooth={true}
-                    offset={-48}
+                    offset={2}
                     duration= {500}
                 />
                 <NavItem
@@ -58,7 +58,7 @@ function Nav(){
                     to="Footer"
                     spy={true}
                     smooth={true}
-                    offset={-643}
+                    offset={2}
                     duration= {500}
                 />
             </ul>

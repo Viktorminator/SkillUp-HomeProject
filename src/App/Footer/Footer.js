@@ -11,7 +11,7 @@ import './Footer.css'
 function Footer() {
     return (
         <footer>
-            <div className="footer-rights" id='Footer'>
+            <div className="footer-rights">
                 &#169; 2019 Kyiv. Copyright. All rights reserved
             </div>    
             <div className="networks">

@@ -10,9 +10,9 @@ function Contacts() {
             <SubHeader
                 className='get-contact-header'
                 title='Contact'
-                id='Contact'
+                id = 'Contact'
             />
-            <section className="get-contact-section">
+            <section className="get-contact-section"  id='Footer'>
                 <div className="contact-part-1">
                     <div className="contact-input">
                         <input type="text" className="name" id="name" placeholder="YOUR NAME"/>
