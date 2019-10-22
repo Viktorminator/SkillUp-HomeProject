@@ -20,7 +20,7 @@ class Main extends Component {
     render () {
 
         const {
-            PostArray
+            PostArray,
         } = this.props
         
         return (

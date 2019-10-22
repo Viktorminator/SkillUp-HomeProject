@@ -5,20 +5,20 @@ import PostData from './MainBlog/PostData'
 
 import './Section.css'
 
-
 class Section extends Component {
     
     state = {
-        PostArray: {PostData}
+        PostArray: PostData
     }
 
     Filter = (theme) => {
         let filterArray = PostData.filter(function(curent){
-            return curent.theme == theme
+            return curent.theme === theme
         })
         
-        console.log(filterArray)
-        
+        this.setState({
+            PostArray:filterArray
+        })
     }
 
     render() {
@@ -28,12 +28,11 @@ class Section extends Component {
                 Filter = {this.Filter}
             />
             <MainBlog
-                PostArray = {this.state.PostArray.PostData}
+                PostArray = {this.state.PostArray}
             />
         </section>
         )
     }
-
 }
 
 export default Section
