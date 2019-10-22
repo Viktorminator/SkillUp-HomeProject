@@ -34,22 +34,27 @@ function SideBar({
             <SideBatItem
                 img = {html}
                 Filter = {Filter}
+                theme = 'html'
             />
             <SideBatItem
                 img = {css}
                 Filter = {Filter}
+                theme = 'css'
             />
             <SideBatItem
                 img = {js}
                 Filter = {Filter}
+                theme = 'js'
             />
             <SideBatItem
                 img = {angular}
                 Filter = {Filter}
+                theme = 'angular'
             />
             <SideBatItem
                 img = {react}
                 Filter = {Filter}
+                theme = 'react'
             />
         </div>
     )

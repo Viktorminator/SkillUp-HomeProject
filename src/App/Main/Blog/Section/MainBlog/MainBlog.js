@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import PostData from './PostData'
 import PostItem from './PostItem/PostItem'
 import BlogBtn from './BlogBtn/BlogBtn'
 

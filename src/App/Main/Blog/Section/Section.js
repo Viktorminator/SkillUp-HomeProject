@@ -12,14 +12,13 @@ class Section extends Component {
         PostArray: {PostData}
     }
 
-    Filter = () => {
+    Filter = (theme) => {
         let filterArray = PostData.filter(function(curent){
-            return curent.theme == 'html'
+            return curent.theme == theme
         })
-
-        this.setState({
-            PostArray: {filterArray}
-        })
+        
+        console.log(filterArray)
+        
     }
 
     render() {

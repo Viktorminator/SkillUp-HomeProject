@@ -5,14 +5,15 @@ class SideBarItem extends Component {
 
         const {
             img,
-            Filter
+            Filter,
+            theme
         } = this.props
 
         return (
             <div 
                 className='sidebar-item'
                 style = {img}
-                onClick = {()=>{Filter()}}
+                onClick = {()=>{Filter(theme)}}
             />
         )
     }
