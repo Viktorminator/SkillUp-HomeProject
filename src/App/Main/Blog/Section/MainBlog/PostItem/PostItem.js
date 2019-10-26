@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import Like from './Like/Like'
+import {NavLink} from 'react-router-dom'
 
 import './PostItem.css'
 
@@ -16,19 +17,21 @@ class PostItem extends Component {
 
         return(
             <div className='post'>
-            <div className='post-image'>
-                <img src={img} alt={alt}/>
-            </div>
-            <div className='post-date'>
-                <div>
-                    {date}
+                <div className='post-image'>
+                    <NavLink to={alt} className='post-reference'>
+                        <img src={img} alt={alt}/>
+                    </NavLink>    
                 </div>
-                <Like/>
+                <div className='post-date'>
+                    <div>
+                        {date}
+                    </div>
+                    <Like/>
+                </div>
+                <div className='post-description'>
+                    {description}
+                </div>
             </div>
-            <div className='post-description'>
-                {description}
-            </div>
-        </div>
         )
     }
 }

@@ -63,7 +63,6 @@ const PostData = [
         theme:'react'
     }
     
-
 ]
 
 export default PostData

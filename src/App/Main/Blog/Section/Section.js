@@ -21,11 +21,18 @@ class Section extends Component {
         })
     }
 
+    Reset = () => {
+        this.setState({
+            PostArray: PostData
+        })
+    }
+
     render() {
         return (
             <section className='blog-section'>
             <SideBar
                 Filter = {this.Filter}
+                Reset = {this.Reset}
             />
             <MainBlog
                 PostArray = {this.state.PostArray}

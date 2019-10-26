@@ -1,14 +1,15 @@
 import React from 'react'
 import logo from "./logo.jpg"
+import {NavLink} from 'react-router-dom'
 
 import './Logo.css'
 
 const Logo = () => {
     return (
-        <a className="logo" href = '/'>
+        <NavLink className="logo" to='/Home'>
             <img src={logo} alt="logo"/>
             <p>SHAMAN<span>skyi</span></p>
-        </a>
+        </NavLink>
     )
 }
 

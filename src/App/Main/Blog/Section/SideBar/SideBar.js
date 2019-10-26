@@ -1,5 +1,5 @@
 import React from 'react'
-import SideBatItem from './SideBarItem/SideBarItem'
+import SideBarItem from './SideBarItem/SideBarItem'
 import htmlImg from './SideBarItem/img/html.png'
 import cssImg from './SideBarItem/img/css.jpg'
 import jsImg from './SideBarItem/img/javascript.png'
@@ -26,36 +26,40 @@ const
     }
 
 function SideBar({
-    Filter
+    Filter,
+    Reset
 }) {
 
     return (
         <div className='blog-sidebar'>
-            <SideBatItem
+            <SideBarItem
                 img = {html}
                 Filter = {Filter}
                 theme = 'html'
             />
-            <SideBatItem
+            <SideBarItem
                 img = {css}
                 Filter = {Filter}
                 theme = 'css'
             />
-            <SideBatItem
+            <SideBarItem
                 img = {js}
                 Filter = {Filter}
                 theme = 'js'
             />
-            <SideBatItem
+            <SideBarItem
                 img = {angular}
                 Filter = {Filter}
                 theme = 'angular'
             />
-            <SideBatItem
+            <SideBarItem
                 img = {react}
                 Filter = {Filter}
                 theme = 'react'
             />
+            <div className='reset' onClick={()=>{Reset()}}>
+                Reset
+            </div>
         </div>
     )
 }
