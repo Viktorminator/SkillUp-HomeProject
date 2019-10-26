@@ -1,0 +1,18 @@
+.post-like {
+    margin-right: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.like {
+    margin-left: 0.2vw;
+    width: 20px;
+    height: 20px;
+    transition: all 0.08s ease-out;
+}
+
+.like:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}

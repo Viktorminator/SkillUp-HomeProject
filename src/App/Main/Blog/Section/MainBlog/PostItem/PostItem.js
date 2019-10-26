@@ -1,18 +1,9 @@
 import React, {Component} from 'react'
+import Like from './Like/Like'
 
 import './PostItem.css'
 
 class PostItem extends Component {
-
-    state = {
-        likes: 0
-    }
-
-    addLike = () => {
-        this.setState((prevState)=>({
-            likes:prevState.likes + 1
-        }))
-    }
 
     render () {
 
@@ -32,15 +23,7 @@ class PostItem extends Component {
                 <div>
                     {date}
                 </div>
-                <div className='post-like'>
-                    <p className='likes-value'>{this.state.likes}</p> 
-                    <img 
-                        src='Images/like.jpg' 
-                        alt='like' 
-                        className='like'
-                        onClick = {()=>{this.addLike()}}
-                    />   
-                </div>
+                <Like/>
             </div>
             <div className='post-description'>
                 {description}

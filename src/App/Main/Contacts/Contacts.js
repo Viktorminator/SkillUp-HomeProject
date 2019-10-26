@@ -6,13 +6,12 @@ import './Contacts.css'
 
 function Contacts() {
     return (
-        <div className="get-contact">
+        <div className="get-contact" id = 'Contact'>
             <SubHeader
                 className='get-contact-header'
                 title='Contact'
-                id = 'Contact'
             />
-            <section className="get-contact-section"  id='Footer'>
+            <section className="get-contact-section">
                 <div className="contact-part-1">
                     <div className="contact-input">
                         <input type="text" className="name" id="name" placeholder="YOUR NAME"/>

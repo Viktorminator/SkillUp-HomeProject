@@ -49,16 +49,7 @@ function Nav(){
                     to="Contact"
                     spy={true}
                     smooth={true}
-                    offset={2}
-                    duration= {500}
-                />
-                <NavItem
-                    nameLink='Copyrights'
-                    activeClass="active"
-                    to="Footer"
-                    spy={true}
-                    smooth={true}
-                    offset={2}
+                    offset={-48}
                     duration= {500}
                 />
             </ul>

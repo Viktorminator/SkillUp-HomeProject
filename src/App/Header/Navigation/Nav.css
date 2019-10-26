@@ -1,7 +1,7 @@
 ul {
     position: absolute;
     display: flex;
-    transform: translate(-100%, -50%);
+    transform: translate(-80%, -50%);
     width: 50vw;
     margin: 0vh 15vw 0vh 0vw;
 }

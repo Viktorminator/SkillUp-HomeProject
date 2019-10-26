@@ -1,83 +1,33 @@
-import React, {Component}  from 'react'
-import SliderBtn from './SliderBtn'
+import React from 'react'
+import Slider from 'react-animated-slider'
 import ImageArray from './ImageArray'
 
+import 'react-animated-slider/build/horizontal.css'
 import './Slider.css'
 
-class Slider extends Component{
-
-    state = {
-        position: {
-            left: '0px',
-        }
-    }
-
-    newSlide = (productId) => {
-        if (productId == 1) {
-            this.setState (() => ({
-                position : {
-                    left: '0px'
-                }
-            }))
-        } else if (productId == 2) {
-            this.setState (() => ({
-                position : {
-                    left: '-1024px'
-                }
-            }))
-        } else if (productId == 3) {
-            this.setState (() => ({
-                position : {
-                    left: '-2048px'
-                }
-            }))
-        } else if (productId == 4) {
-            this.setState (() => ({
-                position : {
-                    left: '-3072px'
-                }
-            }))
-        }
-    }
-
-    render() {
-        return (
-            <div className="slide-container">
-                <div className="image-container" style = {this.state.position}>
-                    {
-                        ImageArray.map(({
-                            image,
-                            alt,
-                            id
-                        }) => {
-                            return (
-                                <img 
-                                    src={image} 
-                                    alt={alt} 
-                                    key={id}
-                                />
-                            )
-                        })
-                    }
+const NewSlider = () => {
+    return (
+        <Slider 
+            className = 'slider-wrapper'
+            autoplay = '4000'
+        >
+            {ImageArray.map((item,index)=>(
+                <div
+                    key = {index}
+                    className='slider-content'
+                    style={{ background: `url('${item.image}') no-repeat center center` }}
+                >
+                    <section>
+                        <img src={item.userProfile} alt={item.user}/>
+                        <span>
+							Posted by <strong>{item.user}</strong>
+						</span>
+                    </section>
+                    
                 </div>
-                <div className="button-container">
-                    {
-                        ImageArray.map(({
-                            id
-                        })=>{
-                            return (
-                                <SliderBtn
-                                    id = {id}
-                                    newSlide = {this.newSlide}
-                                    key={id}
-                                />
-                            )
-                        })
-                    }
-                </div>
-            </div>
-        )
-    }
+            ))}
+        </Slider>
+    )
 }
 
-export default Slider
+export default NewSlider
