@@ -10,6 +10,7 @@ import chrome from './Images/chrome.png'
 import telegram from './Images/telegram.png'
 
 function Home() {
+
     return(
         <div className="slider" id='Home'>
             <Developer

@@ -1,23 +1,29 @@
 import React, {Component} from 'react'
 import SelfPhoto from '../Main/About/Section/PartOne/SelfPhoto/SelfPhoto'
+import PostData, {getProductsMap} from '../Main/Blog/Section/MainBlog/PostData'
 
 import './PostPage.css'
 
 class PostPage extends Component {
-    render(){
+    render() {
+        
+        const {
+            match,
+            productsMap = getProductsMap(PostData)
+        } = this.props
+
+        console.log(productsMap[match.params.id].date)
+
         return (
             <main className='postPage'>
                 <div className='post-wrapper'>
-                    <img src='./Images/blog1.jpg'/>
+                    <img src={productsMap[match.params.id].img}/>
                     <div className='title'>
-                        <h1>The Ultimate HTML Cheat Sheet For Beginners</h1>
-                        <p>html</p>
+                        <h1>{productsMap[match.params.id].title}</h1>
+                        <p>{productsMap[match.params.id].theme}</p>
                     </div>
                     <p>
-                        Below is a complete guide of HTML codes that you can copy and paste for use on your own blog or website. 
-                        Although I like to insist on bloggers taking the time to learn how to write these codes and know what each part 
-                        of them does, sometimes you need a code in a pinch! Be sure to view the other tutorials on this site for more 
-                        in-depth demonstrations and explanations of coding.
+                        {productsMap[match.params.id].description}
                     </p>
                 </div>
                 <div className='author-wrapper'>

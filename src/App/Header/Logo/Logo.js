@@ -6,7 +6,7 @@ import './Logo.css'
 
 const Logo = () => {
     return (
-        <NavLink className="logo" to='/Home'>
+        <NavLink className="logo" to='/'>
             <img src={logo} alt="logo"/>
             <p>SHAMAN<span>skyi</span></p>
         </NavLink>

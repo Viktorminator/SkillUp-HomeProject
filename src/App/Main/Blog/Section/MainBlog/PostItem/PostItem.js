@@ -12,13 +12,17 @@ class PostItem extends Component {
             img,
             alt = "Post's image",
             date = "Post's date",
-            description = "Post's description"
+            description = "Post's description",
+            id
         } = this.props
-
+        
         return(
             <div className='post'>
                 <div className='post-image'>
-                    <NavLink to={alt} className='post-reference'>
+                    <NavLink 
+                        to={id}
+                        className='post-reference'
+                    >
                         <img src={img} alt={alt}/>
                     </NavLink>    
                 </div>

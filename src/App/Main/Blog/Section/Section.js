@@ -1,41 +1,27 @@
 import React, {Component} from 'react'
 import SideBar from './SideBar/SideBar'
 import MainBlog from './MainBlog/MainBlog'
-import PostData from './MainBlog/PostData'
 
 import './Section.css'
 
 class Section extends Component {
     
-    state = {
-        PostArray: PostData
-    }
-
-    Filter = (theme) => {
-        let filterArray = PostData.filter(function(curent){
-            return curent.theme === theme
-        })
-        
-        this.setState({
-            PostArray:filterArray
-        })
-    }
-
-    Reset = () => {
-        this.setState({
-            PostArray: PostData
-        })
-    }
-
     render() {
+
+        const {
+            PostArray,
+            Filter,
+            Reset
+        } = this.props
+
         return (
             <section className='blog-section'>
             <SideBar
-                Filter = {this.Filter}
-                Reset = {this.Reset}
+                Filter = {Filter}
+                Reset = {Reset}
             />
             <MainBlog
-                PostArray = {this.state.PostArray}
+                PostArray = {PostArray}
             />
         </section>
         )

@@ -20,7 +20,7 @@ class Main extends Component {
     render () {
 
         const {
-            PostArray,
+            PostArray
         } = this.props
         
         return (
@@ -31,10 +31,12 @@ class Main extends Component {
                     img,
                     alt,
                     date,
-                    description
+                    description,
+                    title
                 })=>{
                     return (
                         <PostItem
+                            id = {id}
                             key = {id}
                             img = {img}
                             alt = {alt}
