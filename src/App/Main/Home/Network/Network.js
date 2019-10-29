@@ -5,12 +5,13 @@ import './Network.css'
 function Network({
     src,
     nameClass,
-    alt
+    alt,
+    href
 }) {
     return (
-        <div className={nameClass}>
+        <a href={href} className={nameClass} target='_blank'>
             <img src={src} alt={alt}/>
-        </div>
+        </a>
     )
 }
 

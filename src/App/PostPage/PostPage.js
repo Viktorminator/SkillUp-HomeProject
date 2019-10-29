@@ -17,7 +17,9 @@ class PostPage extends Component {
         return (
             <main className='postPage'>
                 <div className='post-wrapper'>
-                    <img src={productsMap[match.params.id].img}/>
+                    <div className='image-container'>
+                        <img src={productsMap[match.params.id].img}/>
+                    </div>
                     <div className='title'>
                         <h1>{productsMap[match.params.id].title}</h1>
                         <p>{productsMap[match.params.id].theme}</p>
