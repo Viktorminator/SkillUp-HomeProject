@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.b2186c75.chunk.css",
+    "main.js": "/my-app/static/js/main.3b7a3e2f.chunk.js",
+    "main.js.map": "/my-app/static/js/main.3b7a3e2f.chunk.js.map",
+    "runtime-main.js": "/my-app/static/js/runtime-main.6920d096.js",
+    "runtime-main.js.map": "/my-app/static/js/runtime-main.6920d096.js.map",
+    "static/css/2.d4c5f937.chunk.css": "/my-app/static/css/2.d4c5f937.chunk.css",
+    "static/js/2.91ff45a4.chunk.js": "/my-app/static/js/2.91ff45a4.chunk.js",
+    "static/js/2.91ff45a4.chunk.js.map": "/my-app/static/js/2.91ff45a4.chunk.js.map",
+    "index.html": "/my-app/index.html",
+    "precache-manifest.abf88323eda8f16da10412b9dd99179a.js": "/my-app/precache-manifest.abf88323eda8f16da10412b9dd99179a.js",
+    "service-worker.js": "/my-app/service-worker.js",
+    "static/css/2.d4c5f937.chunk.css.map": "/my-app/static/css/2.d4c5f937.chunk.css.map",
+    "static/css/main.b2186c75.chunk.css.map": "/my-app/static/css/main.b2186c75.chunk.css.map",
+    "static/media/Home.css": "/my-app/static/media/_121.d740e153.jpg",
+    "static/media/Contacts.css": "/my-app/static/media/_122.20092848.jpg",
+    "static/media/angular.png": "/my-app/static/media/angular.6a4cf2a3.png",
+    "static/media/Slider.css": "/my-app/static/media/arrow.6afd37d8.png",
+    "static/media/chrome-footer.png": "/my-app/static/media/chrome-footer.9a99377a.png",
+    "static/media/chrome.png": "/my-app/static/media/chrome.bee48181.png",
+    "static/media/css.jpg": "/my-app/static/media/css.0e8a4187.jpg",
+    "static/media/html.png": "/my-app/static/media/html.89034e46.png",
+    "static/media/SelfPhoto.css": "/my-app/static/media/iam.e7254529.jpg",
+    "static/media/instagram-footer.png": "/my-app/static/media/instagram-footer.0fe0c203.png",
+    "static/media/instagram.png": "/my-app/static/media/instagram.30fa0886.png",
+    "static/media/logo.jpg": "/my-app/static/media/logo.2507f585.jpg",
+    "static/media/pageUp.png": "/my-app/static/media/pageUp.d93802d5.png",
+    "static/media/react.png": "/my-app/static/media/react.b646782b.png",
+    "static/media/telegram.png": "/my-app/static/media/telegram.220f37c5.png",
+    "static/media/twitter-footer.png": "/my-app/static/media/twitter-footer.9951882c.png",
+    "static/media/twitter.png": "/my-app/static/media/twitter.0fd4ec61.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6920d096.js",
+    "static/css/2.d4c5f937.chunk.css",
+    "static/js/2.91ff45a4.chunk.js",
+    "static/css/main.b2186c75.chunk.css",
+    "static/js/main.3b7a3e2f.chunk.js"
+  ]
+}
